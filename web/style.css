@@ -1,9 +1,10 @@
 /* Global ===================== */
 :root {
   --dark-blue: #363f5f;
-  --green: #49aa26;
+  --green: #49AA26;
   --light-green: #3dd705;
   --red: #e92929;
+
 }
 
 * {
@@ -18,7 +19,7 @@ html {
 
 body {
   background: #f0f2f5;
-  font-family: "Poppins", sans-serif;
+  font-family:'Poppins', sans-serif
 }
 
 .sr-only {
@@ -79,7 +80,7 @@ button:hover {
 
 .button.new {
   display: inline-block;
-  margin-bottom: 0.8rem;
+  margin-bottom: .8rem;
 }
 
 .button.cancel {
@@ -102,7 +103,7 @@ button:hover {
 
 /* Header ===================== */
 header {
-  background: #2d4a22;
+  background: #2D4A22;
   padding: 2rem 0 10rem;
   text-align: center;
 }
@@ -118,8 +119,8 @@ header {
 }
 
 #balance h2 {
-  color: white;
-  margin-top: 0;
+  color:white;
+  margin-top:0;
 }
 
 /* Cards ===================== */
@@ -166,13 +167,14 @@ header {
   color: #969cb3;
 }
 
-table thead tr th:first-child,
-table tbody tr td:first-child {
+table thead tr th:first-child, 
+table tbody tr td:first-child
+{
   border-radius: 0.25rem 0 0 0.25rem;
 }
 
-table thead tr th:last-child,
-table tbody tr td:last-child {
+table thead tr th:last-child, 
+table tbody tr td:last-child{
   border-radius: 0 0.25rem 0.25rem 0;
 }
 
@@ -186,15 +188,15 @@ table thead th {
 }
 
 table tbody tr {
-  opacity: 0.7;
+  opacity: 0.7
 }
 
 table tbody tr:hover {
-  opacity: 1;
+  opacity: 1
 }
 
 table tbody td {
-  background: white;
+  background:white;
   padding: 1rem 2rem;
 }
 
@@ -215,12 +217,12 @@ td.expense {
   width: 100%;
   height: 100%;
 
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0,0,0,0.7);
 
   position: fixed;
   top: 0;
 
-  display: flex;
+  display:flex;
   align-items: center;
   justify-content: center;
 
@@ -236,12 +238,13 @@ td.expense {
 }
 
 .modal {
-  background: #f0f2f5;
+  background: #F0F2f5;
   padding: 2.4rem;
 
   position: relative;
   z-index: 1;
 }
+
 
 /* Form ===================== */
 #form {
@@ -265,7 +268,7 @@ input {
   margin-top: 0.8rem;
 }
 
-.input-group small {
+.input-group .help{
   opacity: 0.4;
 }
 
@@ -280,6 +283,7 @@ input {
   width: 48%;
 }
 
+
 /* Footer ===================== */
 footer {
   text-align: center;
@@ -289,15 +293,16 @@ footer {
   opacity: 0.6;
 }
 
+
 /* Responsive ===================== */
 @media (min-width: 800px) {
   html {
-    font-size: 87.5%;
+      font-size: 87.5%;
   }
 
   #balance {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
   }
 }
