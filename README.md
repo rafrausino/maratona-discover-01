@@ -1,22 +1,40 @@
-# Maratona Discover :space_invader:
-Programação na prática 
 <h1 align="center">
-    <img alt="Maratona-Discover" title="Maratona-Discover" src="./github/neverstoplearningHeader.png" />
+  <img alt="dev.finances" title="dev.finances" src=".github/logo.svg" width="220px" />
 </h1>
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="dev.finances" src=".github/devfinances.png" width="100%">
+</p>
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [HTML]
-- [CSS]
-- [JavaScript]
- 
- ## 💻 Projeto
+- HTML
+- CSS
+- JavaScript
 
-Nesse evento da rocketseat foi nos apresentado conceitos basicos de HTML, CSS e Javascript, e eu decidi levar eles pro *proximo nivel* 💜
+## 💻 Projeto
 
-Este é um projeto desenvolvido durante a **[Maratona Discover](https://maratonadiscover.rocketseat.com.br/)**, realizada pela **[@Rocketseat](https://github.com/Rocketseat)** durante os dias 14/01 de Janeiro de 2021 a 04/02 de Fevereiro de 2021.
+O dev.finances é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/7Vu9DzUaCZIV4nibzkjgB4/dev.finance%24-Maratona-Discover). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ---
-Desenvolvido com ❤️ by 💥 Renan Afrausino
+
+Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
